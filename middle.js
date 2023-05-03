@@ -22,4 +22,4 @@ const findMiddleOfArray = function(arr) {
 
 };
 
-assertArrayEqual(findMiddleOfArray[6,2,'hello',4,5,1]), ['hello',4]);
+assertArrayEqual(findMiddleOfArray([6,2,'hello',4,5,1]), ['hello',4]);
