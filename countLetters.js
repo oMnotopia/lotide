@@ -15,7 +15,7 @@ const countLetters = function(stringToBeCounted) {
   return charCounter;
 };
 
-const result = countLetters("This string is to be counted")
+const result = countLetters("This string is to be counted");
 
 assertEqual(result["t"], 4);
 assertEqual(result["i"], 3);
