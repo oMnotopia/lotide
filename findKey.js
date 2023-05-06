@@ -27,5 +27,5 @@ assertEqual(findKey({
   Princeton: 20,
   Detroit: 80,
   Banff: 100,
-  Miami:  0,
+  Miami:  25,
 }, x => x < 20), "Miami");
