@@ -1,4 +1,3 @@
-const eqArrays = require("../eqArrays");
 const assertArrayEqual = require("../assertArrayEqual");
 
 assertArrayEqual(['hello', 2, 3], ['hello', 2, 3]);
