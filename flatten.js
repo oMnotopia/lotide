@@ -23,9 +23,8 @@ const flatten = function(arr) {
       flattenedArray.push(item);
     }
   }
-  assertArrayEqual(flattenedArray, [1, 2, 3, 4, 5, 6]);
+  return flattenedArray;
 };
 
 module.exports = flatten;
 
-flatten([1, 2, [3, 4], 5, [6]]);
