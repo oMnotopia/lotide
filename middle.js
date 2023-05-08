@@ -1,4 +1,5 @@
 const findMiddleOfArray = function(arr) {
+  if (arr.length === 0) return undefined;
   const arrayLength = arr.length;
   const middleOfArray = Math.floor(arrayLength / 2);
   if (arrayLength === 1 || arrayLength === 2) return [];
