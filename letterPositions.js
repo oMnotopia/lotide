@@ -24,6 +24,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
+module.exports = letterPositions;
+
 const result = letterPositions("This is a turducken");
 
 assertArrayEqual(result["t"],  [0, 7]);

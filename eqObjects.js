@@ -30,6 +30,8 @@ const eqObjects = function(obj1, obj2) {
   return true;
 };
 
+module.exports = eqObjects;
+
 const objectInAnObject = { animals: {mammals: {cats: {siamese: {}, shortHaired: {}}, dogs: {pyranese: {}, weiner: {}}}}};
 const objectInAnObject2 = { animals: {mammals: {cats: {siamese: {}, shortHaired: {}}, dogs: {pyranese: {}, weiner: {}, terrier: {}}}}};
 //const anotherObjectInAnObject = { animals: {avians: {flightless: {penguins: {}, kiwi: {}}, flying: {raven: {}, eagle: {}}}}};
