@@ -1,11 +1,14 @@
 const tail = require('../tail');
-const assertEqual = require("../assertEqual");
+const assert = require("chai").assert;
 
 //Test cases
-let arr = [1, 2, 3, 4];
+describe("#tail", () => {
+  it("Returns [2, 3, 4] from [1, 2, 3, 4]", () => {
+    const arr = [1, 2, 3, 4];
+    assert.deepEqual(tail(arr), [2, 3, 4]);
+  });
 
-const result = tail(arr);
-
-assertEqual(result[0], 2);
-assertEqual(result[1], 3);
-assertEqual(result[2], 4);
+  it("Returns undefined from []", () => {
+    assert.isUndefined(tail([]));
+  });
+});
